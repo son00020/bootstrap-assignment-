@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Questrial');
+
+.card {
+    background-color: #FFFFFF;
+    color: skyblue;
+    margin: 1rem;
+}
+
+p {
+    font-family: questrial, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: oldStandard, Times, "Times New Roman", serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: oldStandard, Times, "Times New Roman", serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: oldStandard, Times, "Times New Roman", serif;
+}
+
+
+
+#collapsemenu {
+    font-family: oldStandard, Times, "Times New Roman", serif;
+}
+
+body {
+    background-color: #B8A388;
+}
+
+
+
+nav {
+    background-color: #211715;
+}
+
+
+.card-body{
+    background-color: #211715;
+}
+
+footer {
+ position: absolute;
+    color: white;
+  padding: 1rem;
+  background-color: #211715;
+  text-align: center;
+   bottom: 0;
+}
+
+
+
+footer2 {
+ position: absolute;
+    color: white;
+  padding: 1rem;
+  background-color: #211715;
+  text-align: center;
+}
+
+footer3 {
+ position: absolute;
+    color: white;
+  padding: 1rem;
+  background-color: #211715;
+  text-align: center;
+  bottom: 0;
+   clear: both;
+   
+}
+
+.fa{
+    color: white;
+float: right;
+    margin:1rem;
+    
+}
+.fa-facebook:hover{
+    color: dodgerblue;
+float: right;
+    margin:1rem;
+    
+}
+.fa-twitter:hover{
+    color: skyblue;
+float: right;
+    margin:1rem;
+    
+}
+.fa-instagram:hover{
+    color: rebeccapurple;
+float: right;
+    margin:1rem;
+    
+}
+.fa-snapchat:hover{
+    color: yellow;
+float: right;
+    margin:1rem;
+    
+}
+
+/***********************************************
+                MEDIA QUERIES
+***********************************************/
+@media all and (min-width: 501px) and (max-width: 750px) {
+  #carouselExampleIndicators img {
+    width: 28rem; } }
+@media all and (min-width: 570px) {
+  .contact {
+    margin-bottom: 8rem !important; }
+
+  #map {
+    height: 86%;
+    margin-top: 0; } }
+@media all and (min-width: 751px) {
+  #carouselExampleIndicators img {
+    width: 28rem; }
+
